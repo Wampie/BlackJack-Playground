@@ -1,0 +1,14 @@
+Blackjackissa pelaajat pyrkivät saamaan korteillaan suuremman summan kuin jakaja. Korttien summan tulee olla mahdollisimman lähelle 21, mutta yli ei saa mennä - kaikki kädet, joiden summa on yli 21, häviävät automaattisesti.
+Pelaaja voittaa, jos pysyy alle 21:n ja saa suuremman summan kuin jakaja tai jos jakaja menee yli 21:n. Jakaja voittaa, jos pelaaja menee yli 21:n tai saa suuremman summan kuin pelaaja. Tasatilanteessa (englanniksi "push") pelaaja saa panoksensa takaisin.
+
+Kortit ovat vastaavat arvoltaan numeroarvoaan, lukuunottamatta kuvakortteja joiden arvo on 10, ja ässää jonka arvo on 1 tai 11 riippuen kumpi on parempi kädelle.
+
+Peli alkaa pelaajan valitessa kuinka paljon aikoo panostaa käteensä.
+
+Jos pelaajan kahden ensimmäisen kortin arvo on 21, on Pelaajalla BlackJack jolla hän voittaa automaattisesti, ellei jakajalla ole myös BlackJack jolloin tilanne on tasan. jos jakajalla on BlackJack ja pelaajalla ei, pelaaja häviää automaattisesti.
+
+Kun pelaajalle on jaettu kaksi ensimmäistä korttia, hänellä on seuraavat toiminnot käytössään:
+Hit - Pelaaja ottaa yhden kortin lisää. Jos pelaajan käsi ylittää 21, hän häviää.
+Stand - Pelaaja on tyytyväinen omaan käteensä eikä hän halua lisäkortteja. Vuoro siirtyy jakajalle.
+Double down - Pelaaja tuplaa panoksensa ja saa tasan yhden lisäkortin.
+Split - Pelaaja tuplaa ja jakaa kätensä: kaksi yhden käden muodostanutta korttia ovatkin nyt ensimmäiset yksittäiset kortit kahdessa uudessa kädessä. Pelaaja jatkaa näiden kahden uuden käden pelaamista normaalisti. Splitata voi normaalisti vain kaksi saman arvoista korttia.
